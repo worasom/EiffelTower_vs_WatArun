@@ -1,4 +1,4 @@
-# EiffelTower_vs_WatArun (Temper of Dawn)
+# EiffelTower vs WatArun (Temper of Dawn)
 
 Eiffel Tower is a famous landmark in Paria, France. Wat Arun or the Temple of Dawn is a famous landmark along the Chaopraya River in Bangkok, Thailand. They has similar structure, but very different architecture. This project is trying to classify pictures of these two places with convolution neural network.
 
