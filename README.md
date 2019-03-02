@@ -7,7 +7,11 @@ Images are obtain by google images of the two places.There are about 600 picture
 Skills
 
 •	Mining images from google images 
+
 •	Dataloader and image augmentation in GPU (fastai, py torch)
-•	Transfer learning using pretrained resnet weight 
+
+•	Transfer learning using pretrained resnet weight
+
 •	Achieve 93% accuracy 
+
 
