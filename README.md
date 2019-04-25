@@ -12,28 +12,28 @@ Skills
 •	Achieve 93% accuracy 
 
 # Picture of Wat Arun
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig1.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig1.png)
 
 # Picture of Eiffel Tower
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig1.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig1.png)
 
 I played around with the batch size (bs) and sz. The former because I don't have a large set of images and the later because a lot of Wat Arun images are not square. Then obtain 98% accuracy, after the 4th epoch. Let's explore the results. Pick random images from the validation set to see what is most confident and lease confident classifications. Note that Eiffel is labeled as 0 and Wat Arun is labeled as 1.
 
 **Correctly classified**
 
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig3.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig3.png)
 
 **Incorrectly classified**
 
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig4.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig4.png)
 
 **Most Incorrect Wat Arun**
 
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig6.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig6.png)
 
 **Most Incorrect Eiffel**
 
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig5.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig5.png)
 
 Most incorrect results are due to blur image or very far away, making the structures very similar. Next, I improve the model by choosing a learning rate, and data agumentation. 
 
@@ -41,11 +41,11 @@ Most incorrect results are due to blur image or very far away, making the struct
 Data augmentation randomly change the images by: flipping, zooming, rotation, stretching, changing lighting parameters, and padding. I use fastai library to play with augmentation: adding rotation, change lighting, and add padding into the training sets.
 These are augmented images. 
 
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig7.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig7.png)
 
 After image augmentation, I am able to slightly improve the accuracy to 97%. Here is the confusion matrix.
 
-[](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig8.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig8.png)
 
 Each classes have about the same miss-classified images. Given that there are less images of Wat Arun from the internet, thus the model has more difficult time classifying Wat Arun. 
 
