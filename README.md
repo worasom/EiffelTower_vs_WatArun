@@ -12,7 +12,7 @@ Skills
 •	Achieve 93% accuracy 
 
 # Picture of Wat Arun
-![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig1.png)
+![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig2.png)
 
 # Picture of Eiffel Tower
 ![](https://github.com/worasom/EiffelTower_vs_WatArun/blob/master/gitfigures/fig1.png)
